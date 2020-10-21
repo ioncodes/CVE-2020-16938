@@ -1,0 +1,5 @@
+in winobjex64 go to Global?? and look for SCSI. Pick the one that matches your disk. It looks like you can also access partially another disk with this from one disk. kinda weird, eh?
+only works on insider tho. confirmed = 19587.1000 and 19619.
+Open FileTest and set the device path. NtCreateFile. ReadWrite -> hit ReadFile. Ez.
+
+~ Layle
